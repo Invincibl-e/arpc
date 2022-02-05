@@ -11,8 +11,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/lesismal/arpc/codec"
-	"github.com/lesismal/arpc/util"
+	"github.com/Invincibl-e/arpc/codec"
+	"github.com/Invincibl-e/arpc/util"
 )
 
 const (

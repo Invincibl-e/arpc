@@ -1,3 +1,3 @@
-module github.com/lesismal/arpc
+module github.com/Invincibl-e/arpc
 
-go 1.13
+go 1.17

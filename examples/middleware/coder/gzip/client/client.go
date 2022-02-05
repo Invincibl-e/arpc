@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/lesismal/arpc"
-	"github.com/lesismal/arpc/extension/middleware/coder/gzip"
+	"github.com/Invincibl-e/arpc"
+	"github.com/Invincibl-e/arpc/extension/middleware/coder/gzip"
 )
 
 func main() {

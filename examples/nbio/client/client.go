@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/lesismal/arpc"
-	"github.com/lesismal/arpc/log"
+	"github.com/Invincibl-e/arpc"
+	"github.com/Invincibl-e/arpc/log"
 )
 
 func main() {

@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lesismal/arpc"
+	"github.com/Invincibl-e/arpc"
 )
 
 var (
@@ -68,7 +68,7 @@ func main() {
 						atomic.AddUint64(&failedTotal, 1)
 						log.Printf("Call failed: %v", err)
 					} else {
-						//log.Printf("Call Response: \"%v\"", rsp.Msg)
+						// log.Printf("Call Response: \"%v\"", rsp.Msg)
 						atomic.AddUint64(&qpsSec, 1)
 					}
 				}
@@ -87,7 +87,7 @@ func main() {
 							log.Printf("CallAsync failed: %v", err)
 							atomic.AddUint64(&failedTotal, 1)
 						} else {
-							//log.Printf("Call Response: \"%v\"", rsp.Msg)
+							// log.Printf("Call Response: \"%v\"", rsp.Msg)
 							atomic.AddUint64(&qpsSec, 1)
 							atomic.AddUint64(&asyncTimes, 1)
 						}
@@ -96,7 +96,7 @@ func main() {
 						log.Printf("CallAsync failed: %v", err)
 						atomic.AddUint64(&failedTotal, 1)
 					} else {
-						//log.Printf("Call Response: \"%v\"", rsp.Msg)
+						// log.Printf("Call Response: \"%v\"", rsp.Msg)
 						atomic.AddUint64(&qpsSec, 1)
 						atomic.AddUint64(&asyncTimes, 1)
 					}
